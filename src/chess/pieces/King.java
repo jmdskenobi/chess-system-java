@@ -98,7 +98,7 @@ public class King extends ChessPiece {
 					mat[position.getRow()][position.getColum() + 2] = true;
 				}
 			}
-			// #specialMove castling Queenside rook
+			// #specialMove castling queenside rook
 			Position posT2 = new Position(position.getRow(), position.getColum() - 4);
 			if (testRookCartling(posT1)) {
 				Position p1 = new Position(position.getRow(), position.getColum() - 1);
